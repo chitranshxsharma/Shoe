@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+  
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#505050;
+   
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+}
+#nav #first img{
+    position: absolute;
+    height: 100%;
+    margin-left: 30px;
+   
+
+}
+#second{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#second a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#third{
+    align-items: center;
+    display: flex;
+    gap: 13px;
+}
+#third h4{
+    color: #fff;
+}
+#fourth{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+#left{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#text{
+    z-index: 999;
+    height: 60%;
+    width: 50%;
+    color: #fff;
+
+}
+#text p{
+    margin-top: 20px;
+}
+#text button{
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin-top: 25px;
+}
+#text h1{
+    font-size: 60px;
+}
+#text #rating{
+    padding: 30px 0px;
+   color: #fff;
+    font-size: 20px;
+}
+#main #center{
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    height: 40%;
+    transform: scaleX(-1);
+    rotate: -30deg;
+    z-index: 999;
+    filter: brightness(1.5);
+}
+#right{
+    background-color: #E63956;
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+}
+#bottom{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    color: #fff;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+  
+}
+#one{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#bottom #profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://media.licdn.com/dms/image/C4D03AQF9MNOgtA9bdw/profile-displayphoto-shrink_400_400/0/1642856275986?e=1678924800&v=beta&t=CI-l8j8fjqLsT8J9EyzPO_J4cQHEspVAdCAB0-vZxo0);
+    background-size: cover;
+}
+#social{
+    font-size: 20px;
+}
+#social i:hover{
+    font-size: 35px;
+}
+#last{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#last i{
+    font-size: 60px;
+}
+#last span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#last i:hover{
+    font-size: 70px;
+    color: black;
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    background-color:#505050;
+}
+#loader img{
+    height: 400px;
+    
+}
+#main>h1{
+    position: absolute;
+    color:rgba(23, 23, 24, 0.46);
+    font-size: 350px;
+    z-index: 99;
+    white-space: nowrap;
+    opacity: 0.5;
+    left: -3%;
+    top: 22%;
+}
+
